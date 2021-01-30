@@ -16,17 +16,14 @@
 
 PRODUCT_HARDWARE := bramble
 
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-    ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
-        LOCAL_KERNEL := device/google/bramble-kernel/Image.lz4
-    else
-        LOCAL_KERNEL := device/google/bramble-kernel/vintf/Image.lz4
-    endif
+ifeq ($(INLINE_KERNEL_BUILDING),false)
+ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+    TARGET_PREBUILT_KERNEL := device/google/bramble-kernel/Image.lz4
 else
-    LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+    TARGET_PREBUILT_KERNEL := device/google/bramble-kernel/vintf/Image.lz4
 endif
-
 PRODUCT_VENDOR_KERNEL_HEADERS := device/google/bramble-kernel/sm7250/kernel-headers
+endif
 
 include build/make/target/product/iorap_large_memory_config.mk
 include device/google/redbull/device-common.mk
