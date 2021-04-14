@@ -12,3 +12,5 @@ PRODUCT_MODEL := Pixel 4a (5G)
 PRODUCT_BRAND := google
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+PRODUCT_SOONG_NAMESPACES += vendor/google_devices/bramble
