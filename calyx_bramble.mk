@@ -9,5 +9,6 @@ $(call inherit-product, device/google/bramble/aosp_bramble.mk)
 PRODUCT_NAME := calyx_bramble
 PRODUCT_MODEL := Pixel 4a (5G)
 PRODUCT_RESTRICT_VENDOR_FILES := false
+PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := relaxed
 
 PRODUCT_SOONG_NAMESPACES += vendor/google_devices/bramble
