@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f926217f_3d6cf9bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2021-12-16T14:41:19Z",
+      "side": 1,
+      "message": "We can look into bringing back some of this later, eg. camera services.",
+      "revId": "58e004c3c1324ad9b8994599c5bd2c0f72d309b9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
