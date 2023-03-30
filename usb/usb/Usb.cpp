@@ -563,6 +563,21 @@ bool canSwitchRoleHelper(const string &portName) {
     return false;
 }
 
+Status getUsbDataEnabledHelper(android::hardware::usb::Usb *usb) {
+    string enabled;
+
+    if (!ReadFileToString(USB_DATA_PATH, &enabled)) {
+        ALOGE("Failed to open usb_data_enabled");
+        return Status::ERROR;
+    }
+
+    enabled = Trim(enabled);
+    usb->mUsbDataEnabled = enabled == "enabled";
+
+    ALOGI("mUsbDataEnabled:%d", usb->mUsbDataEnabled ? 1 : 0);
+    return Status::SUCCESS;
+}
+
 Status getPortStatusHelper(android::hardware::usb::Usb *usb,
         std::vector<PortStatus> *currentPortStatus) {
     std::unordered_map<string, bool> names;
@@ -649,6 +664,7 @@ void queryVersionHelper(android::hardware::usb::Usb *usb,
                         std::vector<PortStatus> *currentPortStatus) {
     Status status;
     pthread_mutex_lock(&usb->mLock);
+    getUsbDataEnabledHelper(usb);
     status = getPortStatusHelper(usb, currentPortStatus);
     queryMoistureDetectionStatus(currentPortStatus);
     queryPowerTransferStatus(currentPortStatus);
