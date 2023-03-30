@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "577958b8_eec6a31c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-30T21:31:30Z",
+      "side": 1,
+      "message": "Untested.\n\nNot sure why the chown and chmod is `on post-fs`\n",
+      "revId": "f9c91a806bd2cf7b78afdc104d1dbafeedf9fb61",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
