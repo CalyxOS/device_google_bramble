@@ -16,6 +16,23 @@
       "message": "Tested with bramble and Ic2f1debe. More details in issue.",
       "revId": "2ee287ed7fa694b47e83ec1a1e8b65ab08620464",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6d47e663_99ab4653",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-03T21:16:14Z",
+      "side": 1,
+      "message": "When done testing, change to use ro.debuggable instead (currently\ncommented out, but tested working as expected).",
+      "revId": "2ee287ed7fa694b47e83ec1a1e8b65ab08620464",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
