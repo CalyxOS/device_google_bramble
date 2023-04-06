@@ -87,6 +87,24 @@
       "parentUuid": "1ce2167a_fbcb8d6b",
       "revId": "2ef82fb15b587aebd25766ba4b3391695ed1a720",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d2157765_ad4207c2",
+        "filename": "usb/gadget/android.hardware.usb.gadget-service.bramble.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-06T14:09:38Z",
+      "side": 1,
+      "message": "Another quirk: if we set it to `peripheral` when nothing is connected, it will continue showing `peripheral` after connecting and using a flash drive, but it will function properly as if it is set to `host` anyway.",
+      "parentUuid": "a5a6b11a_6edd59fb",
+      "revId": "2ef82fb15b587aebd25766ba4b3391695ed1a720",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
