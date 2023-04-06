@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7446e174_465974c6",
+        "filename": "usb/gadget/android.hardware.usb.gadget-service.bramble.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-06T13:18:40Z",
+      "side": 1,
+      "message": "I don\u0027t know if this\u0027d always be right or conflict with something atm.",
+      "revId": "2ef82fb15b587aebd25766ba4b3391695ed1a720",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
