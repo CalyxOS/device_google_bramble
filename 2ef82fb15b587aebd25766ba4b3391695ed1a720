@@ -52,6 +52,24 @@
       "parentUuid": "0f09eb5e_63edadb5",
       "revId": "2ef82fb15b587aebd25766ba4b3391695ed1a720",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a5a6b11a_6edd59fb",
+        "filename": "usb/gadget/android.hardware.usb.gadget-service.bramble.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-06T14:06:31Z",
+      "side": 1,
+      "message": "Right, and that\u0027s how it looks in practice as well... I\u0027d meant to look into this before you brought it up but I\u0027m glad you did since I might have forgotten.\n\nHere are the values of `a6000000.ssusb/mode`:\n- Nothing connected at all: `none`\n- `usb_data_enabled` is 0: `none`\n- PC is connected: `peripheral`\n- Flash drive is connected: `host`\n\nIf `a6000000.ssusb/mode` is `none`, and we change it to anything else (`host` or `peripheral`), it will both enter that mode *and* turn USB data on, despite `usb_data_enabled` continuing to show `disabled` (so that\u0027s... a quirk).\n\nBut I\u0027m not currently sure how we would know in advance what the correct mode is, and it might not be easy (or possible) to figure out, and I don\u0027t think we should set it incorrectly... :/",
+      "parentUuid": "1ce2167a_fbcb8d6b",
+      "revId": "2ef82fb15b587aebd25766ba4b3391695ed1a720",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
