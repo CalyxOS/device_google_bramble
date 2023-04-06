@@ -16,6 +16,24 @@
       "message": "I don\u0027t know if this\u0027d always be right or conflict with something atm.",
       "revId": "2ef82fb15b587aebd25766ba4b3391695ed1a720",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f09eb5e_63edadb5",
+        "filename": "usb/gadget/android.hardware.usb.gadget-service.bramble.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-06T13:42:19Z",
+      "side": 1,
+      "message": "I\u0027ll do a little more research and test real with some OTG devices (and wireless debugging) to see if/how it changes and what happens if I change it. Won\u0027t take long.",
+      "parentUuid": "7446e174_465974c6",
+      "revId": "2ef82fb15b587aebd25766ba4b3391695ed1a720",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
