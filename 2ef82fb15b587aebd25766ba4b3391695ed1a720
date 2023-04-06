@@ -105,6 +105,24 @@
       "parentUuid": "a5a6b11a_6edd59fb",
       "revId": "2ef82fb15b587aebd25766ba4b3391695ed1a720",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e3ca5789_adabdae3",
+        "filename": "usb/gadget/android.hardware.usb.gadget-service.bramble.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-06T14:27:06Z",
+      "side": 1,
+      "message": "Leaving one last note and then we are going to split this out and remove the property stuff (can be a different set of patches):\n`/sys/class/typec/port0/data_role` has *almost* what we need for this, even with data off. It has \"host\" selected when it should be host, and \"device\" selected when it should be peripheral.",
+      "parentUuid": "d2157765_ad4207c2",
+      "revId": "2ef82fb15b587aebd25766ba4b3391695ed1a720",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
