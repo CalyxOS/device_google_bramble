@@ -34,6 +34,24 @@
       "parentUuid": "de74ad7f_5dde120c",
       "revId": "bd9553effa090028545deab66ec9db44e3da53b6",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cda7dc6f_2e354f94",
+        "filename": "usb/gadget/android.hardware.usb.gadget-service.bramble.rc",
+        "patchSetId": 10
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-13T11:28:57Z",
+      "side": 1,
+      "message": "Ah I missed the \u0027bootstrap\u0027",
+      "parentUuid": "f0bb76d1_6490006a",
+      "revId": "bd9553effa090028545deab66ec9db44e3da53b6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
