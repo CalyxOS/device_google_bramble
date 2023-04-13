@@ -16,6 +16,24 @@
       "message": "I know at this point it\u0027s going to be annoying to change, but what if we just used /system/bin/true?",
       "revId": "bd9553effa090028545deab66ec9db44e3da53b6",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f0bb76d1_6490006a",
+        "filename": "usb/gadget/android.hardware.usb.gadget-service.bramble.rc",
+        "patchSetId": 10
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-13T11:20:37Z",
+      "side": 1,
+      "message": "It wouldn\u0027t be very annoying, but I already tried it earlier and /system/bin/true is not found because /system is not fully mounted (yes, we\u0027re that early). Otherwise good idea.\n\nAt the moment, it\u0027s just a quiet error in the log, but I didn\u0027t want an error if there wasn\u0027t actually an error.",
+      "parentUuid": "de74ad7f_5dde120c",
+      "revId": "bd9553effa090028545deab66ec9db44e3da53b6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
