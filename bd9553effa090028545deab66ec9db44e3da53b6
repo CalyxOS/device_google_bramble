@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de74ad7f_5dde120c",
+        "filename": "usb/gadget/android.hardware.usb.gadget-service.bramble.rc",
+        "patchSetId": 10
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-13T05:17:06Z",
+      "side": 1,
+      "message": "I know at this point it\u0027s going to be annoying to change, but what if we just used /system/bin/true?",
+      "revId": "bd9553effa090028545deab66ec9db44e3da53b6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
