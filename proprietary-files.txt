@@ -223,6 +223,18 @@ product/etc/CarrierSettings/yoigo_es.pb
 product/etc/CarrierSettings/zain_kw.pb
 product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 
+# VZW
+product/app/VZWAPNLib/VZWAPNLib.apk;PRESIGNED
+product/etc/permissions/com.android.omadm.service.xml
+product/etc/permissions/com.google.omadm.trigger.xml
+product/etc/permissions/com.verizon.apn.xml
+product/etc/permissions/com.verizon.services.xml
+product/etc/permissions/features-verizon.xml
+product/etc/sysconfig/allowlist_com.android.omadm.service.xml
+product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk;PRESIGNED
+product/priv-app/OemDmTrigger/OemDmTrigger.apk
+product/priv-app/WfcActivation/WfcActivation.apk;PRESIGNED
+
 # system_ext partition
 
 # HBM
@@ -667,13 +679,20 @@ system_ext/priv-app/ims/ims.apk
 system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
 # Radio
+system_ext/etc/permissions/com.android.omadm.radioconfig.xml
 system_ext/etc/permissions/com.google.euiccpixel.permissions.xml
 system_ext/etc/permissions/com.google.euiccpixel.xml
+system_ext/etc/permissions/google-ril.xml
+system_ext/framework/RadioConfigLib.jar
+system_ext/framework/google-ril.jar
+system_ext/priv-app/CarrierSetup/CarrierSetup.apk;PRESIGNED
 system_ext/priv-app/EuiccGoogleOverlay/EuiccGoogleOverlay.apk
 system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
 system_ext/priv-app/EuiccSupportPixel/P20_Mini-Applet_dsem.apdu
 system_ext/priv-app/EuiccSupportPixel/esim-full-v1.img
 system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk;PRESIGNED
+system_ext/priv-app/RilConfigService/RilConfigService.apk
+system_ext/priv-app/grilservice/grilservice.apk;PRESIGNED
 
 # SecureUI
 system_ext/app/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk
@@ -681,3 +700,9 @@ system_ext/lib/libsecureui_svcsock_system.so
 system_ext/lib/libsecureuisvc_jni.so
 system_ext/lib64/libsecureui_svcsock_system.so
 system_ext/lib64/libsecureuisvc_jni.so
+
+# VZW
+system_ext/etc/permissions/obdm_permissions.xml
+system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk;PRESIGNED
+system_ext/priv-app/OBDM_Permissions/OBDM_Permissions.apk;PRESIGNED
+system_ext/priv-app/obdm_stub/obdm_stub.apk;PRESIGNED
