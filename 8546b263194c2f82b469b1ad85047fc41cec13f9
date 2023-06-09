@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b4fcd65_40fc8fe5",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-06-09T20:55:30Z",
+      "side": 1,
+      "message": "I imagine it might be better if we provide the permissions files ourselves for most/all of these (not just in this section but among all these changes), so that we can tweak them as needed.",
+      "revId": "8546b263194c2f82b469b1ad85047fc41cec13f9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
