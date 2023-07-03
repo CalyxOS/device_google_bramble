@@ -34,6 +34,24 @@
       "parentUuid": "3b4fcd65_40fc8fe5",
       "revId": "8546b263194c2f82b469b1ad85047fc41cec13f9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "acf4f8f8_3666cf1e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-03T20:21:23Z",
+      "side": 1,
+      "message": "And just as I said that, I remembered and noticed the `deny-permission`.\n\nI wonder if that\u0027d work for other things.",
+      "parentUuid": "51f938a0_77d6cee3",
+      "revId": "8546b263194c2f82b469b1ad85047fc41cec13f9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
