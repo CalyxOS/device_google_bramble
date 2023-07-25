@@ -33,6 +33,24 @@
       "message": "Since separating out VZW into a separate change, this is the only permission XML added in this change. As of TQ3A.230705.001, it\u0027s harmless, just containing a library reference. Not sure if we would want to have our own copy of it anyway in case it ever changed, so that there are no sneaky added permissions in the future or something (this one is Google so I doubt that would happen).",
       "revId": "cda7d4f1223e6218438b129c7b2b97b7991d67d6",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "25e5f542_3b12f376",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 485,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-25T21:04:50Z",
+      "side": 1,
+      "message": "That won\u0027t be an issue, the proprietary changes get reviewed before merging. It\u0027s easy enough to spot changes to xml files, especially something with \u0027permissions\u0027 in the name.",
+      "parentUuid": "f2ccccbc_ca6f5e4d",
+      "revId": "cda7d4f1223e6218438b129c7b2b97b7991d67d6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
