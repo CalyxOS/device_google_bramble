@@ -52,6 +52,24 @@
       "parentUuid": "51f938a0_77d6cee3",
       "revId": "8546b263194c2f82b469b1ad85047fc41cec13f9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4c04c9f1_0df552df",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-25T13:16:44Z",
+      "side": 1,
+      "message": "If you mean for other permissions besides privapp permissions, sadly no, deny-permission (or anything like it) isn\u0027t available for anything else, that I could find.",
+      "parentUuid": "acf4f8f8_3666cf1e",
+      "revId": "8546b263194c2f82b469b1ad85047fc41cec13f9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
