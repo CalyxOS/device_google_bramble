@@ -16,6 +16,23 @@
       "message": "VZW seems to need the same stuff that AT\u0026T does and then some, so I separated it out. VZW is here: https://review.calyxos.org/c/CalyxOS/device_google_bramble/+/18652",
       "revId": "cda7d4f1223e6218438b129c7b2b97b7991d67d6",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f2ccccbc_ca6f5e4d",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 485,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-25T21:01:35Z",
+      "side": 1,
+      "message": "Since separating out VZW into a separate change, this is the only permission XML added in this change. As of TQ3A.230705.001, it\u0027s harmless, just containing a library reference. Not sure if we would want to have our own copy of it anyway in case it ever changed, so that there are no sneaky added permissions in the future or something (this one is Google so I doubt that would happen).",
+      "revId": "cda7d4f1223e6218438b129c7b2b97b7991d67d6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }

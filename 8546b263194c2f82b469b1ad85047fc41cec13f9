@@ -88,6 +88,24 @@
       "parentUuid": "4c04c9f1_0df552df",
       "revId": "8546b263194c2f82b469b1ad85047fc41cec13f9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c833e17c_c886eb01",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-25T21:01:35Z",
+      "side": 1,
+      "message": "Ack, this is more relevant for the VZW change now, moved here: https://review.calyxos.org/c/CalyxOS/device_google_bramble/+/18652",
+      "parentUuid": "a929c66f_b300e534",
+      "revId": "8546b263194c2f82b469b1ad85047fc41cec13f9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
