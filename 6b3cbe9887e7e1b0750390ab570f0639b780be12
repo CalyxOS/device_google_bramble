@@ -16,6 +16,23 @@
       "message": "Look into these XML files and possibly include our own variants that deny certain things. Original comment chain here: https://review.calyxos.org/c/CalyxOS/device_google_bramble/+/17654/comments/3b4fcd65_40fc8fe5",
       "revId": "6b3cbe9887e7e1b0750390ab570f0639b780be12",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1af2c6e4_204fda83",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 504,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-25T20:57:20Z",
+      "side": 1,
+      "message": "Look into these XML files, too (as mentioned in https://review.calyxos.org/c/CalyxOS/device_google_bramble/+/18652/comments/b3bcf413_2edfabeb )",
+      "revId": "6b3cbe9887e7e1b0750390ab570f0639b780be12",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
