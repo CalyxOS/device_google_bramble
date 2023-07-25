@@ -16,6 +16,24 @@
       "message": "For some reason, this is happening:\n```\nE AndroidRuntime: FATAL EXCEPTION: main\nE AndroidRuntime: Process: com.android.omadm.service, PID: 8442\nE AndroidRuntime: java.lang.UnsatisfiedLinkError: dlopen failed: library \"libdmengine.so\" not found\nE AndroidRuntime: \tat java.lang.Runtime.loadLibrary0(Runtime.java:1077)\nE AndroidRuntime: \tat java.lang.Runtime.loadLibrary0(Runtime.java:998)\nE AndroidRuntime: \tat java.lang.System.loadLibrary(System.java:1661)\nE AndroidRuntime: \tat com.android.omadm.service.NativeDM.\u003cclinit\u003e(NativeDM.java:29)\nE AndroidRuntime: \tat com.android.omadm.service.DMClientService.onCreate(DMClientService.java:286)\n```",
       "revId": "521465b90786e0f066d9994792d1666617356488",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7569a4ef_f56a876a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-25T20:53:07Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "736869e2_4c4175d7",
+      "revId": "521465b90786e0f066d9994792d1666617356488",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }

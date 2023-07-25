@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e8ee924_2296a675",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-25T20:53:07Z",
+      "side": 1,
+      "message": "VZW seems to need the same stuff that AT\u0026T does and then some, so I separated it out. VZW is here: https://review.calyxos.org/c/CalyxOS/device_google_bramble/+/18652",
+      "revId": "cda7d4f1223e6218438b129c7b2b97b7991d67d6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
