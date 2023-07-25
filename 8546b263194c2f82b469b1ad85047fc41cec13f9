@@ -70,6 +70,24 @@
       "parentUuid": "acf4f8f8_3666cf1e",
       "revId": "8546b263194c2f82b469b1ad85047fc41cec13f9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a929c66f_b300e534",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-25T17:04:56Z",
+      "side": 1,
+      "message": "I meant for other apps (e.g. Android Auto, EUICC / eSIM).\n\nWhat you said (denying other non-privileged) permissions, if it were possible, would be through the usual permission allowlist file.\n\nhttps://review.calyxos.org/c/CalyxOS/platform_packages_apps_Ripple/+/18589/11/default_perms_org.calyxos.ripple.xml",
+      "parentUuid": "4c04c9f1_0df552df",
+      "revId": "8546b263194c2f82b469b1ad85047fc41cec13f9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
