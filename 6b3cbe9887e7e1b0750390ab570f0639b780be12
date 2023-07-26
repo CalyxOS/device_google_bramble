@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9644fefa_e9b1e1cc",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-26T16:21:35Z",
+      "side": 1,
+      "message": "Done, any modified permissions are in I62af68cb",
+      "parentUuid": "b3bcf413_2edfabeb",
+      "revId": "6b3cbe9887e7e1b0750390ab570f0639b780be12",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1af2c6e4_204fda83",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-07-25T20:57:20Z",
       "side": 1,
       "message": "Look into these XML files, too (as mentioned in https://review.calyxos.org/c/CalyxOS/device_google_bramble/+/18652/comments/b3bcf413_2edfabeb )",
+      "revId": "6b3cbe9887e7e1b0750390ab570f0639b780be12",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76229380_c7d06a8c",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 504,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-26T16:21:35Z",
+      "side": 1,
+      "message": "Done, any modified permissions are in I62af68cb",
+      "parentUuid": "1af2c6e4_204fda83",
       "revId": "6b3cbe9887e7e1b0750390ab570f0639b780be12",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
