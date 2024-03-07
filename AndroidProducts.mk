@@ -21,5 +21,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/calyx_bramble.mk \
 
 COMMON_LUNCH_CHOICES := \
-    aosp_bramble-userdebug \
-    calyx_bramble-userdebug \
+    aosp_bramble-trunk_staging-userdebug \
+    calyx_bramble-trunk_staging-userdebug \
