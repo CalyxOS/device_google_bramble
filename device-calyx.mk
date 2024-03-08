@@ -29,4 +29,4 @@ PRODUCT_PACKAGES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi-V1-ndk.vendor:64
+    android.hardware.wifi-V2-ndk.vendor:64
