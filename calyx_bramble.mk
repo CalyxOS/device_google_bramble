@@ -11,11 +11,10 @@ PRODUCT_NAME := calyx_bramble
 PRODUCT_MODEL := Pixel 4a (5G)
 PRODUCT_BRAND := google
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=bramble \
-    PRIVATE_BUILD_DESC="bramble-user 14 UP1A.231105.001.B2 11260668 release-keys"
-
-BUILD_FINGERPRINT := google/bramble/bramble:14/UP1A.231105.001.B2/11260668:user/release-keys
+PRODUCT_BUILD_PROP_OVERRIDES := \
+    BuildDesc=bramble-user[[:space:]]15[[:space:]]UP1A.231105.001.B2[[:space:]]11260668[[:space:]]release-keys \
+    BuildFingerprint=google/bramble/bramble:15/UP1A.231105.001.B2/11260668:user/release-keys \
+    DeviceProduct=$(DEVICE_CODENAME)
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
