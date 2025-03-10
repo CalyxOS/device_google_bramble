@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# CHRE
+$(call soong_config_set,chre,chre_daemon_dsp_library,//vendor/google/bramble:libadsprpc)
+
 # For Google Camera
 PRODUCT_COPY_FILES += \
     device/google/bramble/the_experiences.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/the_experiences.xml
